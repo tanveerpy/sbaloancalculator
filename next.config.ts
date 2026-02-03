@@ -3,8 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: 'export',
 
-  // Uncomment and set basePath if deploying to GitHub Pages subdirectory
-  // basePath: '/sba-loan-calculator',
+  // GitHub Pages subdirectory deployment
+  basePath: '/sbaloancalculator',
 
   // Required for static export
   images: {
@@ -56,4 +56,3 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
-
