@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import type { Metadata } from 'next';
 
 // Article metadata type
 interface Article {
@@ -8,6 +10,8 @@ interface Article {
     category: string;
     readTime: string;
     publishedDate: string;
+    image: string;
+    imageAlt: string;
 }
 
 // Article list (this will be dynamically generated from MDX files later)
