@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import type { Metadata } from 'next';
 
 // Article metadata type
 interface Article {
@@ -63,6 +62,8 @@ const articles: Article[] = [
         category: 'Industry Guides',
         readTime: '14 min read',
         publishedDate: '2026-02-03',
+        image: '/images/blog/industry-strategies.png',
+        imageAlt: 'Different business industries',
     },
 ];
 
