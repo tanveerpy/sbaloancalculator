@@ -1,0 +1,14 @@
+# robots.txt for SBA Loan Calculator
+# https://tanveerpy.github.io
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Legal pages - allow indexing but with noindex meta tag
+Allow: /privacy/
+Allow: /terms/
+Allow: /disclaimer/
+
+# Sitemap location (update after creating sitemap.xml)
+Sitemap: https://tanveerpy.github.io/sitemap.xml

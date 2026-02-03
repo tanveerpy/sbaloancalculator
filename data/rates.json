@@ -1,0 +1,9 @@
+{
+    "primeRate": 6.75,
+    "lastUpdated": "2026-02-03T00:00:00Z",
+    "margins": {
+        "under50k": 6.5,
+        "from50kTo350k": 4.75,
+        "over350k": 3.0
+    }
+}

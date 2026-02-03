@@ -1,0 +1,294 @@
+{
+    "categories": [
+        {
+            "id": "loan-basics",
+            "name": "Loan Basics",
+            "questions": [
+                {
+                    "id": "what-is-sba-7a",
+                    "question": "What is an SBA 7(a) loan?",
+                    "answer": "An SBA 7(a) loan is the most common and versatile loan program offered by the U.S. Small Business Administration. It provides financing up to $5 million for eligible small businesses to use for working capital, equipment purchases, real estate acquisition, refinancing debt, or business expansion. The SBA guarantees a portion of the loan (typically 75-85%), which reduces risk for lenders and makes it easier for small businesses to qualify compared to conventional loans.",
+                    "relatedArticles": [
+                        "complete-guide-sba-7a-loans"
+                    ],
+                    "keywords": [
+                        "SBA 7(a) definition",
+                        "small business loan",
+                        "SBA loan program"
+                    ]
+                },
+                {
+                    "id": "who-qualifies",
+                    "question": "Who qualifies for an SBA 7(a) loan?",
+                    "answer": "To qualify for an SBA 7(a) loan, your business must: (1) be a for-profit business operating in the United States, (2) meet SBA size standards (typically fewer than 500 employees), (3) demonstrate ability to repay the loan (usually DSCR ≥ 1.25), (4) have reasonable owner equity to invest (typically 10-20% down payment), and (5) have exhausted other financing options. The business owner must have good personal credit (generally 680+ credit score) and the business should have been operating for at least 2 years, though startups may qualify under certain conditions.",
+                    "relatedArticles": [
+                        "sba-loan-eligibility-requirements"
+                    ],
+                    "keywords": [
+                        "SBA loan eligibility",
+                        "qualifying requirements",
+                        "DSCR requirements"
+                    ]
+                },
+                {
+                    "id": "loan-uses",
+                    "question": "What can SBA 7(a) loans be used for?",
+                    "answer": "SBA 7(a) loans offer flexible usage for nearly any legitimate business purpose: working capital and operational expenses, purchasing equipment or inventory, buying commercial real estate or land, refinancing existing business debt, funding business expansion or renovation, acquiring another business, and starting a new business. Prohibited uses include: speculative investments, passive real estate investments, lending to others, and paying off delinquent taxes.",
+                    "relatedArticles": [
+                        "complete-guide-sba-7a-loans"
+                    ],
+                    "keywords": [
+                        "SBA loan uses",
+                        "working capital",
+                        "equipment",
+                        "real estate"
+                    ]
+                },
+                {
+                    "id": "maximum-amount",
+                    "question": "What is the maximum SBA 7(a) loan amount?",
+                    "answer": "$5 million is the maximum loan amount for most SBA 7(a) loans. However, the SBA only guarantees a portion of this amount: 85% for loans up to $150,000 and 75% for loans above $150,000. For SBA Express loans (fast-track approval), the maximum is $500,000. The actual amount you can borrow depends on your business's cash flow, collateral, and ability to repay (DSCR).",
+                    "relatedArticles": [
+                        "complete-guide-sba-7a-loans"
+                    ],
+                    "keywords": [
+                        "SBA loan limit",
+                        "maximum loan amount",
+                        "$5 million"
+                    ]
+                },
+                {
+                    "id": "approval-timeline",
+                    "question": "How long does SBA 7(a) approval take?",
+                    "answer": "Standard SBA 7(a) loan approval typically takes 60-90 days from application submission to funding. The timeline breaks down as: lender review (2-4 weeks), SBA review and approval (3-4 weeks), closing and funding (1-2 weeks). For faster approval, consider SBA Express loans which can be approved in as little as 36 hours, though they're limited to $500,000. You can speed up the process by having all required documents ready (3 years of tax returns, financial statements, business plan) before applying.",
+                    "relatedArticles": [
+                        "how-to-speed-up-sba-approval"
+                    ],
+                    "keywords": [
+                        "SBA approval timeline",
+                        "processing time",
+                        "how long"
+                    ]
+                },
+                {
+                    "id": "down-payment",
+                    "question": "Is a down payment required for SBA 7(a) loans?",
+                    "answer": "Yes, SBA 7(a) loans typically require a down payment of 10-20% of the total project cost, though the exact amount depends on the loan's use and your business's financial strength. For example: equipment purchases may require 10% down, commercial real estate often requires 15-20% down, and business acquisitions typically need 10-15% down. This down payment is called 'equity injection' and demonstrates your commitment to the business. Startups or businesses with weaker financials may be asked for higher down payments (20-30%).",
+                    "relatedArticles": [
+                        "down-payment-requirements-sba-loans"
+                    ],
+                    "keywords": [
+                        "SBA down payment",
+                        "equity injection",
+                        "how much down"
+                    ]
+                },
+                {
+                    "id": "7a-vs-504",
+                    "question": "What is the difference between SBA 7(a) and 504 loans?",
+                    "answer": "SBA 7(a) loans are more flexible and can be used for working capital, equipment, real estate, and most business purposes, with loan amounts up to $5 million and terms up to 25 years. SBA 504 loans are specifically for purchasing fixed assets (real estate or equipment) with terms up to 25 years, typically offering lower interest rates but requiring a larger down payment (10% vs 10-20%). The key difference: 7(a) = versatile, 504 = real estate/equipment only. Many businesses use 504 for real estate purchases and 7(a) for working capital.",
+                    "relatedArticles": [
+                        "sba-7a-vs-504-comparison"
+                    ],
+                    "keywords": [
+                        "7(a) vs 504",
+                        "SBA loan comparison",
+                        "which loan"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "rates-and-fees",
+            "name": "Interest Rates & Fees",
+            "questions": [
+                {
+                    "id": "interest-rates",
+                    "question": "How are SBA 7(a) interest rates determined?",
+                    "answer": "SBA 7(a) interest rates are calculated as the Prime Rate plus a margin (spread) that varies based on loan size and term. As of December 2025, the prime rate is 6.75%. The SBA sets maximum margins: for loans ≤ $25,000, the max margin is Prime + 4.75%; for loans $25,001-$50,000, Prime + 3.50%; for loans > $50,000, Prime + 2.75% (if term ≤ 7 years) or Prime + 2.75% (if term > 7 years). So an example rate for a $250,000 loan would be 6.75% (prime) + 2.50% (margin) = 9.25%. Rates can be fixed or variable.",
+                    "relatedArticles": [
+                        "prime-rate-margin-sba-interest-rates"
+                    ],
+                    "keywords": [
+                        "prime rate",
+                        "margin",
+                        "SBA interest calculation",
+                        "6.75%"
+                    ]
+                },
+                {
+                    "id": "guaranty-fee",
+                    "question": "What is the SBA guaranty fee?",
+                    "answer": "The SBA guaranty fee is a one-time fee charged by the SBA to guarantee a portion of your loan, reducing the lender's risk. For FY 2026, the fee is tiered: 0% for loans ≤ $150,000, 3.5% on the guaranteed portion for loans $150,001-$700,000, and for loans > $700,000, it's 3.5% on the first $1 million guaranteed and 3.75% on amounts above $1 million. For example, a $500,000 loan (75% guaranteed = $375,000) would have a fee of $375,000 × 3.5% = $13,125. This fee can often be financed into the loan.",
+                    "relatedArticles": [
+                        "understanding-sba-guaranty-fees"
+                    ],
+                    "keywords": [
+                        "guaranty fee",
+                        "SBA fee 2026",
+                        "one-time fee"
+                    ]
+                },
+                {
+                    "id": "guaranty-fee-calculation",
+                    "question": "How is the guaranty fee calculated?",
+                    "answer": "The guaranty fee is calculated on the SBA's guaranteed portion of the loan, not the total loan amount. For FY 2026, here's the calculation: (1) Determine the guaranteed amount (typically 75% for loans > $150,000, 85% for loans ≤ $150,000). (2) Apply the tiered rate: 3.5% on guaranteed portion ≤ $1M, 3.75% on guaranteed portion > $1M. Example: $800,000 loan → $600,000 guaranteed (75%) → Fee = $600,000 × 3.5% = $21,000. Use our calculator to compute this automatically.",
+                    "relatedArticles": [
+                        "understanding-sba-guaranty-fees"
+                    ],
+                    "keywords": [
+                        "guaranty fee calculation",
+                        "FY 2026 fee schedule",
+                        "tiered rates"
+                    ]
+                },
+                {
+                    "id": "closing-costs",
+                    "question": "What closing costs apply to SBA 7(a) loans?",
+                    "answer": "SBA 7(a) closing costs typically range from 2-5% of the loan amount and include: packaging fee (loan broker/consultant fee, 0-2%), appraisal fee ($2,000-$10,000 for real estate), environmental assessment ($1,500-$5,000), legal/attorney fees ($1,500-$5,000), title insurance (varies by property value), survey fees ($500-$2,000), and recording fees ($200-$500). Our calculator estimates total closing costs at approximately 3% of the loan amount. These costs are in addition to the SBA guaranty fee and can sometimes be financed into the loan.",
+                    "relatedArticles": [
+                        "understanding-sba-guaranty-fees"
+                    ],
+                    "keywords": [
+                        "closing costs",
+                        "packaging fee",
+                        "appraisal",
+                        "legal fees"
+                    ]
+                },
+                {
+                    "id": "fixed-vs-variable",
+                    "question": "Are SBA loans fixed or variable rate?",
+                    "answer": "SBA 7(a) loans can be either fixed or variable rate—it's your choice when applying. Fixed-rate loans have the same interest rate for the entire loan term, providing predictable monthly payments (recommended for long-term loans or when rates are expected to rise). Variable-rate loans have interest rates that adjust quarterly based on changes in the prime rate, offering potentially lower initial rates but payment uncertainty (better for short-term loans or when rates are expected to fall). Most borrowers choose fixed rates for stability. Our calculator lets you compare both options.",
+                    "relatedArticles": [
+                        "sba-7a-vs-504-comparison"
+                    ],
+                    "keywords": [
+                        "fixed vs variable",
+                        "rate structure",
+                        "prime rate"
+                    ]
+                },
+                {
+                    "id": "apr-definition",
+                    "question": "What is APR and how is it calculated for SBA loans?",
+                    "answer": "APR (Annual Percentage Rate) is the true annual cost of your loan, including both interest and fees. Unlike the stated interest rate (which only reflects borrowing cost), APR accounts for the SBA guaranty fee, closing costs, and any other lender fees, expressed as a yearly rate. For example: a $250,000 loan at 7.5% interest with $10,000 in fees might have an APR of 7.82%. APR is calculated by amortizing all fees over the loan term and adding that cost to the interest rate. Our calculator shows both the stated rate and effective APR to give you the complete picture.",
+                    "relatedArticles": [
+                        "understanding-sba-guaranty-fees"
+                    ],
+                    "keywords": [
+                        "APR definition",
+                        "effective interest rate",
+                        "true cost"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "calculator-dscr",
+            "name": "Calculator & DSCR",
+            "questions": [
+                {
+                    "id": "how-calculator-works",
+                    "question": "How does this SBA loan calculator work?",
+                    "answer": "Our SBA loan calculator works in real-time to provide comprehensive loan estimates. Enter your loan amount (up to $5M), interest rate (typically 7-10%), and term (1-25 years). The calculator instantly shows: (1) monthly payment (principal + interest), (2) total interest over the loan term, (3) SBA guaranty fee for FY 2026, (4) estimated closing costs, (5) effective APR including all fees, (6) DSCR score and pre-qualification status, and (7) first-year amortization breakdown. You can also use industry templates to pre-fill typical values for restaurants, retail, manufacturing, and 9 other sectors.",
+                    "relatedArticles": [
+                        "complete-guide-sba-7a-loans"
+                    ],
+                    "keywords": [
+                        "calculator instructions",
+                        "how to use",
+                        "features"
+                    ]
+                },
+                {
+                    "id": "what-is-dscr",
+                    "question": "What is DSCR?",
+                    "answer": "DSCR (Debt Service Coverage Ratio) measures your business's ability to cover its debt obligations. It's calculated as: DSCR = Annual EBITDA ÷ (Existing Annual Debt Payments + Proposed Loan Annual Payment). For example, if your business has $150,000 in EBITDA, $40,000 in existing debt payments, and your new SBA loan would add $36,000/year in payments, your DSCR = $150,000 ÷ ($40,000 + $36,000) = 1.97. A DSCR above 1.0 means you generate more cash than needed to pay debts. Lenders want to see this 'cushion' to ensure you can handle the new loan.",
+                    "relatedArticles": [
+                        "dscr-sba-loans-prequalification-guide"
+                    ],
+                    "keywords": [
+                        "DSCR definition",
+                        "debt service coverage ratio",
+                        "cash flow"
+                    ]
+                },
+                {
+                    "id": "dscr-requirements",
+                    "question": "What DSCR do I need to qualify for an SBA loan?",
+                    "answer": "Most SBA lenders require a minimum DSCR of 1.25, meaning your business must generate $1.25 in cash flow for every $1 of debt payment. Our calculator uses this scoring: Poor (< 1.0) = likely denial, Fair (1.0-1.24) = may qualify with strong collateral or guarantors, Good (1.25-1.49) = meets minimum requirements, Excellent (≥ 1.50) = strong approval odds. For example, if your annual debt payments total $100,000, you'd need at least $125,000 in EBITDA to meet the 1.25 minimum. Higher DSCR often means better loan terms and faster approval.",
+                    "relatedArticles": [
+                        "dscr-sba-loans-prequalification-guide"
+                    ],
+                    "keywords": [
+                        "DSCR requirements",
+                        "minimum DSCR",
+                        "1.25"
+                    ]
+                },
+                {
+                    "id": "calculator-fees-included",
+                    "question": "Does the calculator include all SBA fees?",
+                    "answer": "Yes, our calculator includes all major SBA 7(a) fees to give you the complete cost picture: (1) SBA guaranty fee using the official FY 2026 schedule (3.5-3.75% on guaranteed portion), (2) estimated closing costs at ~3% of loan amount (packaging, appraisal, legal, title, environmental), (3) effective APR that incorporates all fees and interest. We do not include the annual service fee (0.55% on loans > $150,000, capped at $3,000) as it's rare and waived by many lenders. The calculator provides a realistic total cost estimate that's more accurate than basic payment-only calculators.",
+                    "relatedArticles": [
+                        "understanding-sba-guaranty-fees"
+                    ],
+                    "keywords": [
+                        "calculator accuracy",
+                        "fees included",
+                        "complete cost"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "application-process",
+            "name": "Application & Process",
+            "questions": [
+                {
+                    "id": "required-documents",
+                    "question": "What documents do I need to apply for an SBA 7(a) loan?",
+                    "answer": "Required documents for an SBA 7(a) loan application include: Business documents: 3 years of business tax returns (or projections if startup), profit & loss statements, balance sheets, business plan with purpose of loan. Personal documents: 3 years of personal tax returns for all owners with 20%+ ownership, personal financial statement, resume showing relevant experience. Financial documents: 6 months of bank statements, aging reports (accounts receivable/payable), debt schedule listing all current loans. Real estate loans also require: appraisal, environmental report, title work. Having these ready before applying can reduce approval time by 2-3 weeks.",
+                    "relatedArticles": [
+                        "how-to-speed-up-sba-approval"
+                    ],
+                    "keywords": [
+                        "SBA loan application",
+                        "required documents",
+                        "tax returns",
+                        "financial statements"
+                    ]
+                },
+                {
+                    "id": "sba-express",
+                    "question": "What is an SBA Express loan?",
+                    "answer": "SBA Express is a fast-track version of the 7(a) loan program offering quicker approval (as little as 36 hours vs 60-90 days for standard loans) in exchange for lower loan amounts (max $500,000 vs $5M) and a lower SBA guarantee (50% vs 75-85%). Express loans use a streamlined application process and give lenders more decision-making authority. They're ideal for: smaller loan amounts, businesses needing quick funding, working capital or equipment purchases, and borrowers with strong credit and financials. Interest rates are typically slightly higher (Prime + 4.5-6.5%) compared to standard 7(a) loans.",
+                    "relatedArticles": [
+                        "sba-express-vs-standard-7a"
+                    ],
+                    "keywords": [
+                        "SBA Express",
+                        "fast approval",
+                        "36 hours",
+                        "$500K max"
+                    ]
+                },
+                {
+                    "id": "prepayment",
+                    "question": "Can I prepay my SBA 7(a) loan without penalty?",
+                    "answer": "Yes, you can prepay SBA 7(a) loans without penalty if the loan term is less than 15 years. For loans with terms of 15 years or more, prepayment penalties may apply during the first 3 years: Year 1 = 5% of prepayment amount, Year 2 = 3% of prepayment amount, Year 3 = 1% of prepayment amount, Year 4+ = 0% (no penalty). For example, if you prepay $100,000 in Year 1 of a 20-year loan, the penalty would be $5,000. Most working capital and equipment loans have terms under 10 years and can be prepaid anytime without penalty.",
+                    "relatedArticles": [
+                        "complete-guide-sba-7a-loans"
+                    ],
+                    "keywords": [
+                        "prepayment",
+                        "early payoff",
+                        "prepayment penalty",
+                        "15 years"
+                    ]
+                }
+            ]
+        }
+    ]
+}
