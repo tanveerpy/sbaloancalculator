@@ -11,6 +11,7 @@ export function Header() {
         { name: 'Calculator', href: '/' },
         { name: 'Blog', href: '/blog' },
         { name: 'FAQ', href: '/faq' },
+        { name: 'About', href: '/about' },
     ];
 
     return (

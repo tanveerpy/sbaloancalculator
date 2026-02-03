@@ -1398,6 +1398,24 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                     </div>
                 </div>
 
+                {/* YM YL Disclaimer for Financial Content - E-E-A-T Compliance */}
+                <div className="my-12 border-l-4 border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/30 rounded-r-lg pl-6 pr-6 py-5">
+                    <div className="flex items-start gap-3">
+                        <AlertCircle className="w-5 h-5 text-slate-600 dark:text-slate-400 flex-shrink-0 mt-0.5" />
+                        <div>
+                            <p className="text-sm font-semibold text-slate-900 dark:text-white mb-2">
+                                Informational Purposes Only
+                            </p>
+                            <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
+                                This article is for <strong>educational purposes only</strong> and does not constitute financial,
+                                legal, or tax advice. SBA loan regulations, interest rates, and fees change regularly.
+                                Consult with a licensed financial advisor or SBA-approved lender before making loan decisions.
+                                Last updated: {new Date(article.publishedDate).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
                 {/* Content with Fixed Tailwind Typography */}
                 <div className="prose prose-lg prose-slate dark:prose-invert max-w-none">
                     <ReactMarkdown

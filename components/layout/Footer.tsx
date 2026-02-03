@@ -9,6 +9,8 @@ export function Footer() {
             { name: 'SBA Loan Calculator', href: '/' },
             { name: 'Blog & Guides', href: '/blog' },
             { name: 'FAQ', href: '/faq' },
+            { name: 'About Us', href: '/about' },
+            { name: 'Methodology', href: '/methodology' },
         ],
         articles: [
             { name: 'Complete SBA 7(a) Guide', href: '/blog/complete-guide-sba-7a-loans' },
