@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.png",
   },
-  metadataBase: new URL('https://tanveerpy.github.io'),
+  metadataBase: new URL('https://tanveerpy.github.io/sbaloancalculator'),
   alternates: {
     canonical: '/',
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: "SBA 7(a) Loan Calculator - Free Payment & DSCR Analysis",
     description: "Calculate your SBA 7(a) loan payments, check DSCR, and get expert guidance on small business financing",
     type: "website",
-    url: 'https://tanveerpy.github.io',
+    url: 'https://tanveerpy.github.io/sbaloancalculator',
   },
   twitter: {
     card: 'summary',
