@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import {
@@ -24,6 +25,8 @@ const articles: Record<string, {
     keywords: string[];
     wordCount: number;
     readTime: number;
+    image: string;
+    imageAlt: string;
 }> = {
     'complete-guide-sba-7a-loans': {
         title: 'Complete Guide to SBA 7(a) Loans in 2026',
@@ -33,6 +36,8 @@ const articles: Record<string, {
         keywords: ['SBA 7(a) loan guide', 'small business financing', 'SBA eligibility'],
         wordCount: 3200,
         readTime: 14,
+        image: '/images/blog/sba-loan-guide.png',
+        imageAlt: 'SBA 7(a) loan concept illustration showing government building, business handshake, and growth arrow',
         content: `
 ## What is an SBA 7(a) Loan?
 
@@ -194,13 +199,15 @@ Ready to see if an SBA 7(a) loan is right for your business? Our advanced calcul
     `,
     },
     'sba-7a-vs-504-comparison': {
-        title: 'SBA 7(a) vs 504: Choosing the Right Loan for Your Business',
-        excerpt: 'Compare SBA 7(a) and 504 loans to determine which program best fits your business needs. Includes decision tree and real-world scenarios.',
+        title: 'SBA 7(a) vs 504: Which Loan is Right for You?',
+        excerpt: 'Comprehensive comparison of SBA 7(a) and 504 loans: Use cases, rates, terms, fees, and which program fits your business needs.',
         category: 'Comparisons',
         publishedDate: '2026-02-03',
-        keywords: ['SBA 7(a) vs 504', 'loan comparison', 'SBA programs'],
-        wordCount: 2400,
-        readTime: 10,
+        keywords: ['SBA 7(a) vs 504', 'SBA loan comparison', '504 loan'],
+        wordCount: 2800,
+        readTime: 12,
+        image: '/images/blog/sba-7a-vs-504.png',
+        imageAlt: 'Side-by-side comparison of SBA 7(a) and 504 loan programs with icons for working capital and real estate',
         content: `
 ## SBA 7(a) vs 504: Which Loan is Right for You?
 
@@ -395,13 +402,15 @@ Choose a 504 loan if you're financing:
         `,
     },
     'understanding-sba-guaranty-fees': {
-        title: 'Understanding SBA Guaranty Fees & Closing Costs (2026 Guide)',
-        excerpt: 'Learn how SBA guaranty fees are calculated for FY 2026, what closing costs to expect, and how these fees impact your total loan cost.',
-        category: 'Fees & Costs',
+        title: 'Understanding SBA Guaranty Fees in 2026',
+        excerpt: 'Complete breakdown of SBA 7(a) guaranty fees, how they are calculated, when they are paid, and strategies to minimize costs.',
+        category: 'Financial Planning',
         publishedDate: '2026-02-03',
-        keywords: ['SBA guaranty fee', 'closing costs', 'loan fees', 'SBA 2026'],
-        wordCount: 2100,
-        readTime: 8,
+        keywords: ['SBA guaranty fees', 'FY2026 fee schedule', 'SBA upfront costs'],
+        wordCount: 2400,
+        readTime: 10,
+        image: '/images/blog/guaranty-fees.png',
+        imageAlt: 'Financial illustration showing SBA guaranty fee structure with coins, calculator, and government shield',
         content: `
 ## Understanding SBA Guaranty Fees & Closing Costs (2026)
 
@@ -625,13 +634,15 @@ Before finalizing your SBA 7(a) loan, confirm:
         `,
     },
     'dscr-sba-loans-prequalification-guide': {
-        title: 'DSCR for SBA Loans: The Ultimate Pre-Qualification Guide',
-        excerpt: 'Master DSCR calculations and learn how to pre-qualify for SBA loans. Includes industry benchmarks and strategies to improve your debt service coverage ratio.',
-        category: 'Pre-Qualification',
+        title: 'DSCR Requirements: How to Pre-Qualify for an SBA Loan',
+        excerpt: 'Master DSCR calculations, understand lender requirements, and learn how to improve your debt service coverage ratio before applying.',
+        category: 'Qualification',
         publishedDate: '2026-02-03',
-        keywords: ['DSCR', 'debt service coverage ratio', 'SBA pre-qualification', 'loan approval'],
-        wordCount: 2800,
+        keywords: ['DSCR calculator', 'debt service coverage ratio', 'SBA pre-qualification'],
+        wordCount: 2600,
         readTime: 11,
+        image: '/images/blog/dscr-guide.png',
+        imageAlt: 'DSCR dashboard illustration showing ratio gauge at 1.25+ in healthy green zone with calculator and graphs',
         content: `
 ## DSCR for SBA Loans: The Ultimate Pre-Qualification Guide
 
@@ -922,13 +933,15 @@ The calculator will:
         `,
     },
     'industry-specific-sba-loan-strategies': {
-        title: 'Industry-Specific SBA 7(a) Loan Strategies',
-        excerpt: 'Tailored SBA loan strategies for 12 industries including restaurants, retail, manufacturing, healthcare, and more. Use our industry templates to get started.',
+        title: 'Industry-Specific SBA Loan Strategies for 2026',
+        excerpt: 'Tailored SBA financing strategies for restaurants, retail, healthcare, manufacturing, and professional services businesses.',
         category: 'Industry Guides',
         publishedDate: '2026-02-03',
-        keywords: ['industry templates', 'restaurant SBA loan', 'retail financing', 'manufacturing loans'],
-        wordCount: 1800,
-        readTime: 14,
+        keywords: ['SBA loans by industry', 'restaurant financing', 'retail business loans'],
+        wordCount: 3000,
+        readTime: 13,
+        image: '/images/blog/industry-strategies.png',
+        imageAlt: 'Collage of different business industries including restaurant, retail, manufacturing, healthcare, and professional services',
         content: `
 ## Industry-Specific SBA 7(a) Loan Strategies
 
@@ -1337,6 +1350,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         "@type": "Article",
         "headline": article.title,
         "description": article.excerpt,
+        "image": `https://tanveerpy.github.io/sbaloancalculator${article.image}`,
         "datePublished": article.publishedDate,
         "dateModified": article.publishedDate,
         "author": {
@@ -1410,6 +1424,17 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                         {article.excerpt}
                     </p>
                 </header>
+
+                {/* Featured Image */}
+                <div className="relative w-full h-64 md:h-96 mb-12 rounded-2xl overflow-hidden shadow-xl">
+                    <Image
+                        src={article.image}
+                        alt={article.imageAlt}
+                        fill
+                        className="object-cover"
+                        priority
+                    />
+                </div>
 
                 {/* Key Takeaways - Premium Design */}
                 <div className="mb-16 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-950/20 dark:to-indigo-950/20 rounded-2xl p-8 border-2 border-blue-200 dark:border-blue-800 shadow-xl shadow-blue-100/50 dark:shadow-none">
