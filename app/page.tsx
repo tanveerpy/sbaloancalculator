@@ -297,6 +297,126 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* SEO Content Section - Added for search engines and user education */}
+        <div className="mt-12 max-w-5xl mx-auto space-y-8 pb-12">
+          {/* What is SBA 7(a) */}
+          <section className="bg-white dark:bg-slate-800 rounded-xl shadow-md p-8 border border-slate-200 dark:border-slate-700">
+            <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">
+              What is an SBA 7(a) Loan?
+            </h2>
+            <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
+              The SBA 7(a) loan program is the Small Business Administration's most popular financing option, providing up to <strong>$5 million</strong> in funding for small businesses. These government-backed loans offer competitive interest rates, longer repayment terms (up to 25 years), and lower down payments than conventional bank loans.
+            </p>
+            <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed">
+              SBA 7(a) loans can be used for working capital, equipment purchases, real estate acquisition, business expansion, inventory, and refinancing existing debt. The SBA guarantees a portion of the loan (up to 85%), which reduces risk for lenders and makes approval more accessible for small business owners.
+            </p>
+          </section>
+
+          {/* How the Calculator Works */}
+          <section className="bg-white dark:bg-slate-800 rounded-xl shadow-md p-8 border border-slate-200 dark:border-slate-700">
+            <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">
+              How Our SBA Loan Calculator Works
+            </h2>
+            <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
+              Our calculator provides <strong>instant, accurate estimates</strong> of your monthly payment, total interest costs, SBA guaranty fees, and closing costs. Simply adjust the loan amount (up to $5M), term length (1-25 years), and interest rate to see real-time calculations.
+            </p>
+            <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed">
+              All calculations happen directly in your browser - we don't collect or store your financial information. The calculator uses official SBA fee schedules and standard amortization formulas to ensure accuracy. Results include APR calculations that factor in all fees, giving you a complete picture of your loan costs.
+            </p>
+          </section>
+
+          {/* DSCR Explanation */}
+          <section className="bg-white dark:bg-slate-800 rounded-xl shadow-md p-8 border border-slate-200 dark:border-slate-700">
+            <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">
+              Understanding DSCR (Debt Service Coverage Ratio)
+            </h2>
+            <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
+              DSCR is the <strong>most important metric</strong> SBA lenders use to evaluate loan applications. It measures your business's ability to cover debt payments from operating income. The standard minimum DSCR requirement is <strong>1.25</strong>, meaning your business should generate $1.25 for every $1.00 of debt obligations.
+            </p>
+            <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
+              Our calculator computes DSCR using your annual EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) and existing debt payments. A higher DSCR improves your approval chances and may qualify you for better interest rates. Ratios above 1.5 are considered excellent, while 1.25-1.5 is good, and below 1.25 typically requires additional collateral or a co-signer.
+            </p>
+            <div className="grid md:grid-cols-4 gap-4 mt-6">
+              <div className="bg-red-50 dark:bg-red-900/20 border-2 border-red-200 dark:border-red-800 rounded-lg p-4 text-center">
+                <p className="text-sm font-semibold text-red-600 dark:text-red-400 mb-1">Poor</p>
+                <p className="text-2xl font-bold text-red-700 dark:text-red-300">&lt; 1.25</p>
+              </div>
+              <div className="bg-amber-50 dark:bg-amber-900/20 border-2 border-amber-200 dark:border-amber-800 rounded-lg p-4 text-center">
+                <p className="text-sm font-semibold text-amber-600 dark:text-amber-400 mb-1">Fair</p>
+                <p className="text-2xl font-bold text-amber-700 dark:text-amber-300">1.25-1.35</p>
+              </div>
+              <div className="bg-blue-50 dark:bg-blue-900/20 border-2 border-blue-200 dark:border-blue-800 rounded-lg p-4 text-center">
+                <p className="text-sm font-semibold text-blue-600 dark:text-blue-400 mb-1">Good</p>
+                <p className="text-2xl font-bold text-blue-700 dark:text-blue-300">1.35-1.5</p>
+              </div>
+              <div className="bg-emerald-50 dark:bg-emerald-900/20 border-2 border-emerald-200 dark:border-emerald-800 rounded-lg p-4 text-center">
+                <p className="text-sm font-semibold text-emerald-600 dark:text-emerald-400 mb-1">Excellent</p>
+                <p className="text-2xl font-bold text-emerald-700 dark:text-emerald-300">&gt; 1.5</p>
+              </div>
+            </div>
+          </section>
+
+          {/* Industry Use Cases */}
+          <section className="bg-white dark:bg-slate-800 rounded-xl shadow-md p-8 border border-slate-200 dark:border-slate-700">
+            <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">
+              SBA 7(a) Loans by Industry
+            </h2>
+            <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-6">
+              Different industries have unique financing needs and typical loan structures. Our calculator includes industry-specific templates with average loan amounts, interest rates, and EBITDA benchmarks to help you compare your situation with industry standards.
+            </p>
+            <div className="grid md:grid-cols-3 gap-4">
+              <div className="border-2 border-slate-200 dark:border-slate-700 rounded-lg p-5">
+                <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Restaurants</h3>
+                <p className="text-slate-600 dark:text-slate-400 mb-3">Avg. Loan: $350K-$750K</p>
+                <p className="text-sm text-slate-700 dark:text-slate-300">Equipment, renovations, working capital for new locations or expansions.</p>
+              </div>
+              <div className="border-2 border-slate-200 dark:border-slate-700 rounded-lg p-5">
+                <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Healthcare</h3>
+                <p className="text-slate-600 dark:text-slate-400 mb-3">Avg. Loan: $500K-$2M</p>
+                <p className="text-sm text-slate-700 dark:text-slate-300">Practice acquisition, medical equipment, facility expansion, technology upgrades.</p>
+              </div>
+              <div className="border-2 border-slate-200 dark:border-slate-700 rounded-lg p-5">
+                <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Manufacturing</h3>
+                <p className="text-slate-600 dark:text-slate-400 mb-3">Avg. Loan: $750K-$5M</p>
+                <p className="text-sm text-slate-700 dark:text-slate-300">Production equipment, facility purchase, inventory financing, expansion projects.</p>
+              </div>
+            </div>
+          </section>
+
+          {/* Key Benefits */}
+          <section className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-950/20 dark:to-indigo-950/20 rounded-xl p-8 border-2 border-blue-200 dark:border-blue-800">
+            <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">
+              Why Use Our Free SBA Calculator?
+            </h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div>
+                <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-2 flex items-center gap-2">
+                  <span className="text-blue-600 dark:text-blue-400">✓</span> Instant Pre-Qualification
+                </h3>
+                <p className="text-slate-700 dark:text-slate-300">Check your DSCR score immediately to see if you meet lender requirements before applying.</p>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-2 flex items-center gap-2">
+                  <span className="text-blue-600 dark:text-blue-400">✓</span> Complete Cost Breakdown
+                </h3>
+                <p className="text-slate-700 dark:text-slate-300">See all fees including SBA guaranty fees, closing costs, and true APR with fees included.</p>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-2 flex items-center gap-2">
+                  <span className="text-blue-600 dark:text-blue-400">✓</span> Industry Benchmarks
+                </h3>
+                <p className="text-slate-700 dark:text-slate-300">Compare your loan structure with industry-specific templates and average rates.</p>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-2 flex items-center gap-2">
+                  <span className="text-blue-600 dark:text-blue-400">✓</span> Private & Secure
+                </h3>
+                <p className="text-slate-700 dark:text-slate-300">All calculations run in your browser. We never collect or store your financial information.</p>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
     </div>
   );
