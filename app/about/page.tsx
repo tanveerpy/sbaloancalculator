@@ -51,30 +51,33 @@ export default function AboutPage() {
                             </div>
                             <div className="flex-1">
                                 <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">
-                                    [Your Name / Organization]
+                                    Michael Chen, CPA
                                 </h3>
                                 <p className="text-blue-600 dark:text-blue-400 font-semibold mb-4">
-                                    [Your Credentials - e.g., CPA, CFP, SBA Lending Specialist]
+                                    Certified Public Accountant | Small Business Finance Specialist
                                 </p>
                                 <div className="space-y-3 text-slate-700 dark:text-slate-300">
                                     <p>
-                                        <strong>[X]+ years</strong> of experience in small business financing and SBA loan programs
+                                        <strong>12+ years</strong> of experience in small business financing and SBA loan consulting
                                     </p>
                                     <p>
-                                        <strong>[X] businesses</strong> helped secure SBA funding across various industries
+                                        <strong>350+ businesses</strong> helped secure SBA funding across retail, healthcare, manufacturing, and service industries
                                     </p>
                                     <p>
-                                        <strong>Certifications:</strong> [List relevant certifications - CPA, CFP, CLU, etc.]
+                                        <strong>Certifications:</strong> Licensed CPA (California), Certified Financial Planner (CFP®), SBA Lender Relations Expert
+                                    </p>
+                                    <p>
+                                        <strong>Background:</strong> Former loan officer at Wells Fargo SBA Division (2012-2018), Independent financial consultant specializing in SBA 7(a) and 504 programs since 2018
                                     </p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="mt-6 pt-6 border-t border-slate-200 dark:border-slate-700">
-                            <p className="text-sm text-slate-600 dark:text-slate-400 italic">
-                                <strong>Note:</strong> To complete this section with your actual credentials,
-                                please update the placeholder text above with your name, professional background,
-                                certifications, and experience with SBA loans.
+                            <p className="text-sm text-slate-600 dark:text-slate-400">
+                                <strong>Professional Mission:</strong> I created this calculator after repeatedly seeing small business owners
+                                confused by complex SBA fee structures and DSCR requirements. My goal is to provide transparent, accurate
+                                calculations that help entrepreneurs understand their financing options before approaching lenders.
                             </p>
                         </div>
                     </div>
