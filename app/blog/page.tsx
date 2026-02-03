@@ -23,6 +23,8 @@ const articles: Article[] = [
         category: 'Guides',
         readTime: '12 min read',
         publishedDate: '2026-02-03',
+        image: '/images/blog/sba-loan-guide.png',
+        imageAlt: 'SBA 7(a) loan concept illustration',
     },
     {
         slug: 'sba-7a-vs-504-comparison',
@@ -31,6 +33,8 @@ const articles: Article[] = [
         category: 'Comparisons',
         readTime: '10 min read',
         publishedDate: '2026-02-03',
+        image: '/images/blog/sba-7a-vs-504.png',
+        imageAlt: 'SBA 7(a) vs 504 comparison',
     },
     {
         slug: 'understanding-sba-guaranty-fees',
@@ -39,14 +43,18 @@ const articles: Article[] = [
         category: 'Fees & Costs',
         readTime: '8 min read',
         publishedDate: '2026-02-03',
+        image: '/images/blog/guaranty-fees.png',
+        imageAlt: 'SBA guaranty fee structure',
     },
     {
-        slug: 'dscr-sba-loans-prequalification-guide',
+        slug: 'dscr-requirements-pre-qualification',
         title: 'DSCR for SBA Loans: The Ultimate Pre-Qualification Guide',
         excerpt: 'Master DSCR calculations and learn how to pre-qualify for SBA loans. Includes industry benchmarks and strategies to improve your debt service coverage ratio.',
         category: 'Pre-Qualification',
         readTime: '11 min read',
         publishedDate: '2026-02-03',
+        image: '/images/blog/dscr-guide.png',
+        imageAlt: 'DSCR calculation dashboard',
     },
     {
         slug: 'industry-specific-sba-loan-strategies',
