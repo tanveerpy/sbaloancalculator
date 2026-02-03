@@ -96,8 +96,18 @@ export default function BlogPage() {
                         <Link
                             key={article.slug}
                             href={`/blog/${article.slug}`}
-                            className="group bg-white dark:bg-slate-800 rounded-xl shadow-md hover:shadow-xl transition-shadow border border-slate-200 dark:border-slate-700 overflow-hidden"
+                            className="group bg-white dark:bg-slate-800 rounded-xl shadow-md hover:shadow-xl transition-all border border-slate-200 dark:border-slate-700 overflow-hidden"
                         >
+                            {/* Thumbnail Image */}
+                            <div className="relative h-48 w-full overflow-hidden bg-slate-100 dark:bg-slate-700">
+                                <Image
+                                    src={article.image}
+                                    alt={article.imageAlt}
+                                    fill
+                                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                                />
+                            </div>
+
                             <div className="p-6">
                                 <div className="flex items-center justify-between mb-3">
                                     <span className="text-xs font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-wide">
