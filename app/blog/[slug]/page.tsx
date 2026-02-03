@@ -36,7 +36,7 @@ const articles: Record<string, {
         keywords: ['SBA 7(a) loan guide', 'small business financing', 'SBA eligibility'],
         wordCount: 3200,
         readTime: 14,
-        image: '/images/blog/sba-loan-guide.png',
+        image: '/sbaloancalculator/images/blog/sba-loan-guide.png',
         imageAlt: 'SBA 7(a) loan concept illustration showing government building, business handshake, and growth arrow',
         content: `
 ## What is an SBA 7(a) Loan?
@@ -206,7 +206,7 @@ Ready to see if an SBA 7(a) loan is right for your business? Our advanced calcul
         keywords: ['SBA 7(a) vs 504', 'SBA loan comparison', '504 loan'],
         wordCount: 2800,
         readTime: 12,
-        image: '/images/blog/sba-7a-vs-504.png',
+        image: '/sbaloancalculator/images/blog/sba-7a-vs-504.png',
         imageAlt: 'Side-by-side comparison of SBA 7(a) and 504 loan programs with icons for working capital and real estate',
         content: `
 ## SBA 7(a) vs 504: Which Loan is Right for You?
@@ -409,7 +409,7 @@ Choose a 504 loan if you're financing:
         keywords: ['SBA guaranty fees', 'FY2026 fee schedule', 'SBA upfront costs'],
         wordCount: 2400,
         readTime: 10,
-        image: '/images/blog/guaranty-fees.png',
+        image: '/sbaloancalculator/images/blog/guaranty-fees.png',
         imageAlt: 'Financial illustration showing SBA guaranty fee structure with coins, calculator, and government shield',
         content: `
 ## Understanding SBA Guaranty Fees & Closing Costs (2026)
@@ -641,7 +641,7 @@ Before finalizing your SBA 7(a) loan, confirm:
         keywords: ['DSCR calculator', 'debt service coverage ratio', 'SBA pre-qualification'],
         wordCount: 2600,
         readTime: 11,
-        image: '/images/blog/dscr-guide.png',
+        image: '/sbaloancalculator/images/blog/dscr-guide.png',
         imageAlt: 'DSCR dashboard illustration showing ratio gauge at 1.25+ in healthy green zone with calculator and graphs',
         content: `
 ## DSCR for SBA Loans: The Ultimate Pre-Qualification Guide
@@ -940,7 +940,7 @@ The calculator will:
         keywords: ['SBA loans by industry', 'restaurant financing', 'retail business loans'],
         wordCount: 3000,
         readTime: 13,
-        image: '/images/blog/industry-strategies.png',
+        image: '/sbaloancalculator/images/blog/industry-strategies.png',
         imageAlt: 'Collage of different business industries including restaurant, retail, manufacturing, healthcare, and professional services',
         content: `
 ## Industry-Specific SBA 7(a) Loan Strategies

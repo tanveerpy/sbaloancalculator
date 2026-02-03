@@ -22,7 +22,7 @@ const articles: Article[] = [
         category: 'Guides',
         readTime: '12 min read',
         publishedDate: '2026-02-03',
-        image: '/images/blog/sba-loan-guide.png',
+        image: '/sbaloancalculator/images/blog/sba-loan-guide.png',
         imageAlt: 'SBA 7(a) loan concept illustration',
     },
     {
@@ -32,7 +32,7 @@ const articles: Article[] = [
         category: 'Comparisons',
         readTime: '10 min read',
         publishedDate: '2026-02-03',
-        image: '/images/blog/sba-7a-vs-504.png',
+        image: '/sbaloancalculator/images/blog/sba-7a-vs-504.png',
         imageAlt: 'SBA 7(a) vs 504 comparison',
     },
     {
@@ -42,7 +42,7 @@ const articles: Article[] = [
         category: 'Fees & Costs',
         readTime: '8 min read',
         publishedDate: '2026-02-03',
-        image: '/images/blog/guaranty-fees.png',
+        image: '/sbaloancalculator/images/blog/guaranty-fees.png',
         imageAlt: 'SBA guaranty fee structure',
     },
     {
@@ -52,7 +52,7 @@ const articles: Article[] = [
         category: 'Pre-Qualification',
         readTime: '11 min read',
         publishedDate: '2026-02-03',
-        image: '/images/blog/dscr-guide.png',
+        image: '/sbaloancalculator/images/blog/dscr-guide.png',
         imageAlt: 'DSCR calculation dashboard',
     },
     {
@@ -62,7 +62,7 @@ const articles: Article[] = [
         category: 'Industry Guides',
         readTime: '14 min read',
         publishedDate: '2026-02-03',
-        image: '/images/blog/industry-strategies.png',
+        image: '/sbaloancalculator/images/blog/industry-strategies.png',
         imageAlt: 'Different business industries',
     },
 ];
