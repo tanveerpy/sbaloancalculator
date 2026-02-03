@@ -1290,14 +1290,26 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     }
 
     return {
-        title: `${article.title} | SBA Loan Calculator`,
+        title: `${article.title} | SBA Loan Calculator Blog`,
         description: article.excerpt,
-        keywords: article.keywords.join(', '),
+        keywords: article.keywords,
+        alternates: {
+            canonical: `/blog/${slug}`,
+        },
         openGraph: {
             title: article.title,
             description: article.excerpt,
             type: 'article',
             publishedTime: article.publishedDate,
+            modifiedTime: article.publishedDate,
+            authors: ['Michael Chen'],
+            url: `https://tanveerpy.github.io/sbaloancalculator/blog/${slug}`,
+            siteName: 'SBA Loan Calculator',
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: article.title,
+            description: article.excerpt,
         },
     };
 }
@@ -1319,8 +1331,44 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         { icon: Calculator, text: 'Use our SBA loan calculator to estimate payments and check DSCR instantly' },
     ];
 
+    // Article Schema for SEO
+    const articleSchema = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": article.title,
+        "description": article.excerpt,
+        "datePublished": article.publishedDate,
+        "dateModified": article.publishedDate,
+        "author": {
+            "@type": "Person",
+            "name": "Michael Chen",
+            "jobTitle": "CPA, Small Business Finance Specialist",
+            "url": "https://tanveerpy.github.io/sbaloancalculator/about"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "SBA Loan Calculator",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://tanveerpy.github.io/sbaloancalculator/logo.png"
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": `https://tanveerpy.github.io/sbaloancalculator/blog/${slug}`
+        },
+        "wordCount": article.wordCount,
+        "keywords": article.keywords.join(", ")
+    };
+
     return (
         <div className="min-h-screen bg-white dark:bg-slate-950">
+            {/* Article Schema */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+            />
+
             <article className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 {/* Breadcrumb */}
                 <nav className="mb-8 text-sm flex items-center gap-2 text-slate-600 dark:text-slate-400">

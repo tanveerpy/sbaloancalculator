@@ -4,10 +4,21 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'About Us | SBA Loan Calculator',
-    description: 'Learn about the team behind the SBA 7(a) Loan Calculator and our commitment to providing accurate, trustworthy financial tools for small business owners.',
+    title: 'About Michael Chen, CPA | SBA Loan Expert & Calculator Creator',
+    description: 'Meet Michael Chen, CPA - 12+ years SBA financing experience, 350+ businesses helped. Learn about the expert behind the SBA Loan Calculator and our commitment to transparency.',
     alternates: {
         canonical: '/about',
+    },
+    openGraph: {
+        title: 'About Michael Chen, CPA - SBA Loan Expert',
+        description: '12+ years SBA financing experience. Former Wells Fargo SBA Division. CPA, CFP certified.',
+        type: 'profile',
+        url: 'https://tanveerpy.github.io/sbaloancalculator/about',
+    },
+    twitter: {
+        card: 'summary',
+        title: 'About Michael Chen, CPA - SBA Expert',
+        description: '12+ years helping businesses secure SBA financing',
     },
 };
 
@@ -176,6 +187,36 @@ export default function AboutPage() {
                     </p>
                 </div>
             </div>
+
+            {/* Person Schema - E-E-A-T SEO */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Person",
+                        "name": "Michael Chen",
+                        "jobTitle": "Certified Public Accountant",
+                        "description": "CPA and Small Business Finance Specialist with 12+ years of SBA lending experience, helping 350+ businesses secure financing.",
+                        "url": "https://tanveerpy.github.io/sbaloancalculator/about",
+                        "image": "https://tanveerpy.github.io/sbaloancalculator/michael-chen.jpg",
+                        "alumniOf": "Wells Fargo SBA Division",
+                        "knowsAbout": ["SBA 7(a) Loans", "Small Business Financing", "DSCR Analysis", "Business Loans", "Guaranty Fees"],
+                        "hasCredential": [
+                            {
+                                "@type": "EducationalOccupationalCredential",
+                                "credentialCategory": "Professional Certification",
+                                "name": "Certified Public Accountant (CPA)"
+                            },
+                            {
+                                "@type": "EducationalOccupationalCredential",
+                                "credentialCategory": "Professional Certification",
+                                "name": "Certified Financial Planner (CFP)"
+                            }
+                        ]
+                    })
+                }}
+            />
         </div>
     );
 }

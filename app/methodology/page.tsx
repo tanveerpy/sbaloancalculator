@@ -2,10 +2,21 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-    title: 'Methodology | SBA Loan Calculator',
-    description: 'Learn about our calculation methods, data sources, and quality standards for the SBA 7(a) Loan Calculator.',
+    title: 'How We Calculate SBA Loans | Transparent Methodology & Data Sources',
+    description: 'Complete transparency on our SBA 7(a) loan calculation methods, formulas, DSCR scoring, and data sources. See exactly how we calculate payments, fees, and pre-qualification.',
     alternates: {
         canonical: '/methodology',
+    },
+    openGraph: {
+        title: 'SBA Loan Calculator Methodology',
+        description: 'Transparent calculation methods and official data sources for SBA loan estimates',
+        type: 'website',
+        url: 'https://tanveerpy.github.io/sbaloancalculator/methodology',
+    },
+    twitter: {
+        card: 'summary',
+        title: 'SBA Calculator Methodology',
+        description: 'How we calculate SBA loan payments, DSCR, and fees',
     },
 };
 

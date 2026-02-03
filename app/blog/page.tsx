@@ -54,10 +54,26 @@ const articles: Article[] = [
     },
 ];
 
-export const metadata = {
-    title: 'SBA 7(a) Loan Guides & Resources | SBA Loan Calculator Blog',
-    description: 'Expert guides on SBA 7(a) loans covering eligibility, rates, fees, DSCR, and industry-specific strategies. Learn how to qualify and maximize your SBA financing.',
-    keywords: 'SBA loan guides, 7(a) resources, SBA eligibility, loan calculator tutorials',
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'SBA Loan Guides & Expert Articles | Calculator Blog 2026',
+    description: 'Expert guides on SBA 7(a) loans, DSCR requirements, guaranty fees, and financing strategies. Written by CPA Michael Chen. Learn how to qualify and maximize your SBA financing.',
+    keywords: ['SBA loan guides', '7(a) resources', 'SBA eligibility', 'DSCR guide', 'guaranty fees', 'business financing', 'SBA 7a vs 504'],
+    alternates: {
+        canonical: '/blog',
+    },
+    openGraph: {
+        title: 'SBA Loan Expert Guides & Resources',
+        description: 'Comprehensive guides on SBA financing, DSCR pre-qualification, and small business loans by CPA Michael Chen',
+        type: 'website',
+        url: 'https://tanveerpy.github.io/sbaloancalculator/blog',
+    },
+    twitter: {
+        card: 'summary',
+        title: 'SBA Loan Guides & Resources',
+        description: 'Expert guides on SBA 7(a) loans and small business financing',
+    },
 };
 
 export default function BlogPage() {
